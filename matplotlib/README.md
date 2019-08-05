@@ -4,4 +4,5 @@
 [matplotlib tutorials](https://matplotlib.org/tutorials/index.html)
 
 * Introductory
-![Image](pic/parts_of_fig.jpg)
+
+![Patrs of Figure](pic/parts_of_fig.jpg)
