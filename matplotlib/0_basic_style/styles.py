@@ -20,7 +20,6 @@ ax.plot(x1, y1, 'ro-')
 ax.plot(x1, y12, 'b--')
 ax.plot(x1, y13, 'g*-')
 
-
 ax = axes[0][1]
 
 ax.set_title("bar")
