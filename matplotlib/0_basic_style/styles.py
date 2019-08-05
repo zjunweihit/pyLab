@@ -39,6 +39,7 @@ ax.set_title("pie")
 labels = 'A', 'B', 'C'
 sizes = 15, 20, 50
 colors = 'lightcoral', 'gold', 'lightskyblue'
-ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', shadow='True', startangle=50)
+explode = (0, 0.1, 0) # explode the 2nd one 0.1 space
+ax.pie(sizes, labels=labels, colors=colors, explode=explode, autopct='%1.1f%%', shadow='True', startangle=50)
 
 plt.show()
