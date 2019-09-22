@@ -14,3 +14,5 @@ if str.find("book"):
 delimiter = "_#_"
 mylist = ['Chian', 'Japan', 'Russia']
 print(delimiter.join(mylist))
+
+print("replace ' ' with '_': {}".format(str.replace(' ', '_')))
