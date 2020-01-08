@@ -1,3 +1,7 @@
+###
+# Cannot rename this file to "string.py" vector_v1.py cannot get into debug mode
+# It may be same as key word when module importing
+###
 str = "this is a book"
 
 print(str)
